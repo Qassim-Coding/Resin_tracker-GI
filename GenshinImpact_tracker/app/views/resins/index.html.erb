@@ -1,0 +1,21 @@
+<h1 class="page-title">Compteur de Résine pour Genshin Impact</h1>
+
+<div class="card resin-level-card">
+  <%= form_with url: root_path, method: :get do %>
+    <label for="current_level">Niveau actuel de résine :</label>
+    <%= number_field_tag :current_level, @resin.current_level, min: 0, max: 200 %>
+    <%= submit_tag "Mettre à jour" %>
+  <% end %>
+</div>
+
+<div class="card resin-max-card">
+  <h2>Résine Maximum :</h2>
+  <p>Elle sera complète le <%= @max_resin_time.strftime('%d/%m/%Y à') %> <strong><%= @max_resin_time.strftime('%H:%M') %></strong></p>
+</div>
+
+<div class="card resin-time-card">
+  <h3>Temps restant jusqu'à la recharge complète :</h3>
+  <p><%= distance_of_time_in_words(Time.now, @max_resin_time) %></p>
+</div>
+
+<h5 class="footer-text">Compteur opérationnel dès la MAJ 4.8</h5>
