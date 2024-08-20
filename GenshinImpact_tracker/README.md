@@ -1,24 +1,16 @@
 # README
+Hello à tous.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici une application web que j'ai créé sur demande de ma petite cousine,  fan de Genshin Impact.
 
-Things you may want to cover:
+Genshin impact est un célébre jeu-vidéo chinois, basé sur le style du Gacha.
 
-* Ruby version
+Dans ce jeu, pour pouvoir récupérer les récompenses des boss ou donjons battus, on a besoin d'énergie.
 
-* System dependencies
+Cette énergie s'appelle "la résine". On peut en posséder 200 maximum naturellement.
 
-* Configuration
+Cette résine se regénère à coup de 1 energie toutes les 8 minutes pour atteindre 200 au maximum.
 
-* Database creation
+J'ai donc créé ce tracker de résine afin que ma cousine (ou d'autres joueurs !) puisse y inscrire leur niveau de résine actuel et voir quand elle sera remplie !
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+N'hésitez pas à me faire vos retours !
