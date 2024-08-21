@@ -1,2 +1,0 @@
-class Resin < ApplicationRecord
-end

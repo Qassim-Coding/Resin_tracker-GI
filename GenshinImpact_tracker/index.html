@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur de Résine pour Genshin Impact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compteur de Résine pour Genshin Impact</h1>
+
+        <div class="card">
+            <label for="current_level">Niveau actuel de résine :</label>
+            <input type="number" id="current_level" min="0" max="200">
+            <button onclick="updateResin()">Mettre à jour</button>
+        </div>
+
+        <div class="card">
+            <h2>Résine Maximum :</h2>
+            <p>Elle sera complète le <span id="max_resin_time"></span></p>
+        </div>
+
+        <div class="card">
+            <h3>Temps restant jusqu'à la recharge complète :</h3>
+            <p id="time_remaining"></p>
+        </div>
+
+        <h5>Compteur opérationnel dès la MAJ 4.8</h5>
+        <h6>réalisé avec soin et attention par Hany1018 pour sa cousine fan de Genshin Impact</h6>
+    </div>
+
+    <script src="javascript/scripts.js"></script>
+</body>
+</html>
