@@ -1,6 +1,6 @@
 function updateResin() {
   const currentLevel = document.getElementById('current_level').value;
-  const maxResin = 160;
+  const maxResin = 200;
   const resinPerMinute = 1 / 8; // 8 minutes per resin point
   const minutesRemaining = (maxResin - currentLevel) * 8;
 
